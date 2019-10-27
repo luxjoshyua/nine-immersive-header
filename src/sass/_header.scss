@@ -67,6 +67,10 @@ header {
     .logo {
       margin: auto;
       display: block;
+
+      svg {
+          width:100%;
+      }
     }
   
     .share-icons {
