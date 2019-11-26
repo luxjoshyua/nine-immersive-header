@@ -1,11 +1,10 @@
-import getLogo, {styleSvg} from "../site/get-logo";
-
+import getLogo, { styleSvg } from "../site/get-logo";
 
 export default (site, logoColor) => {
   const logo = document.createElement("div");
   logo.classList.add("header-item");
   const logoLink = document.createElement("a");
-  logoLink.classList.add('logo');
+  logoLink.classList.add("logo");
   logoLink.href = site.domain;
 
   //fetch logo

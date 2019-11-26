@@ -5,62 +5,75 @@ import twitter from "../../assets/twitter.svg";
 import linkedin from "../../assets/linkedin.svg";
 import email from "../../assets/email.svg";
 
-
 const URL = window.location.href;
 const TITLE = document.title;
-const DOMAIN = document.querySelector('meta[property="og:site_name"]') ? document.querySelector('meta[property="og:site_name"]').getAttribute('content') : 'NINE';
+const DOMAIN = document.querySelector('meta[property="og:site_name"]')
+  ? document
+      .querySelector('meta[property="og:site_name"]')
+      .getAttribute("content")
+  : "NINE";
 
 export default {
   sites: [
     {
       domain: "https://www.traveller.com.au/",
-      urls: ['traveller'],
-      logo: "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2019/03/traveller-logo-black.svg"
+      urls: ["traveller"],
+      logo:
+        "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2019/03/traveller-logo-black.svg"
     },
     {
       domain: "https://www.afr.com",
-      urls: ['afr'],
-      logo: "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2018/03/AFR-logo.svg"
+      urls: ["afr"],
+      logo:
+        "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2018/03/AFR-logo.svg"
     },
     {
       domain: "https://www.canberratimes.com.au",
-      urls: ['canberratimes'],
-      logo: "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2018/08/canberra-times-logo-1.svg"
+      urls: ["canberratimes"],
+      logo:
+        "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2018/08/canberra-times-logo-1.svg"
     },
     {
       domain: "https://www.essentialbaby.com.au/",
-      urls: ['essentialbaby'],
-      logo: "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2018/06/essentialbaby.svg"
+      urls: ["essentialbaby"],
+      logo:
+        "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2018/06/essentialbaby.svg"
     },
     {
       domain: "https://www.essentialkids.com.au/",
-      urls: ['essentialkids'],
-      logo: "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2018/06/essentialkids-logo.svg"
+      urls: ["essentialkids"],
+      logo:
+        "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2018/06/essentialkids-logo.svg"
     },
     {
       domain: "http://www.executivestyle.com.au/",
-      urls: ['executivestyle'],
-      logo: "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2018/06/executivestyle-logo.svg"
+      urls: ["executivestyle"],
+      logo:
+        "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2018/06/executivestyle-logo.svg"
     },
     {
       domain: "https://www.goodfood.com.au/",
-      urls: ['goodfood'],
-      logo: "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2018/06/goodfood-logo-1.svg"
+      urls: ["goodfood"],
+      logo:
+        "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2018/06/goodfood-logo-1.svg"
     },
     {
       domain: "https://www.smh.com.au",
-      urls: ['smh'],
-      logo: "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2018/06/smh-logo.svg"
+      urls: ["smh"],
+      logo:
+        "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2018/06/smh-logo.svg"
     },
     {
       domain: "https://www.theage.com.au",
-      urls: ['theage'],
-      logo: "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2018/08/the-age-logo-1-1.svg"
+      urls: ["theage"],
+      logo:
+        "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2018/08/the-age-logo-1-1.svg"
     },
     {
       domain: "https://www.watoday.com.au",
-      urls: ['watoday'],
-      logo: "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2018/08/wa-today-logo-1-1.svg"
+      urls: ["watoday"],
+      logo:
+        "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2018/08/wa-today-logo-1-1.svg"
     }
   ],
 

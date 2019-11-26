@@ -1,4 +1,4 @@
-import 'whatwg-fetch'
+import "whatwg-fetch";
 
 export const styleSvg = (parent, logoColor) => {
   if (!logoColor) return;
