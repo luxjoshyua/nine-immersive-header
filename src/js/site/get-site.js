@@ -2,8 +2,18 @@
 import config from "./config";
 
 export default debug => {
-  const hostname = debug || window.location.hostname || window.location.host;
-  if (!hostname) return null;
+  let hostname = null;
+  if (debug) {
+    if (document.querySelector('meta[property="og:url"]')) {
+      hostname = document
+        .querySelector('meta[property="og:url"]')
+        .getAttribute("content");
+    }
+  } else {
+    hostname = window.location.hostname || window.location.host;
+  }
+
+  if (hostname === null) return null;
   const { sites } = config;
 
   for (let i = 0; i < sites.length; i += 1) {
