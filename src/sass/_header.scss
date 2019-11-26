@@ -1,3 +1,5 @@
+$mobile: 600px;
+
 header {
   height: 80px;
   left: 0;
@@ -26,8 +28,8 @@ header {
       margin: auto;
       display: block;
 
-      @media (max-width:360px) {
-          width:200px;
+      @media (max-width: 360px) {
+        width: 200px;
       }
     }
   }
@@ -39,7 +41,7 @@ header {
     cursor: pointer;
     flex: 1;
 
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: $mobile) {
       flex: 0;
     }
 
@@ -55,7 +57,7 @@ header {
       font-size: 75%;
       font-family: PT Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
 
-      @media screen and (max-width: 900px) {
+      @media screen and (max-width: $mobile) {
         display: none;
       }
     }
@@ -81,23 +83,13 @@ header {
     flex: 1;
     overflow: hidden;
 
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 600px) {
       flex-basis: 32px;
       flex-shrink: 1;
       flex-grow: 0;
       h4,
       ul {
         display: none !important;
-      }
-    }
-
-    h4 {
-      font-weight: 400;
-      margin: 0;
-
-      span {
-        font-size: 12px;
-        color: #fff;
       }
     }
 
@@ -115,16 +107,27 @@ header {
         padding: 0 5px;
         line-height: inherit;
 
+        &:last-child {
+          svg {
+            height: 12px;
+            margin-top: 3px;
+          }
+        }
+
+        a {
+          display: flex;
+          align-items: center;
+        }
+
         &:first-child {
           padding-left: 15px;
         }
 
         svg {
           display: inline-block;
-          width: 1.5em;
-          height: 1.5em;
+          height: 15px;
           vertical-align: middle;
-          margin-top: -0.15em;
+
           position: relative;
         }
       }
