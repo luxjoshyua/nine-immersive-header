@@ -10,8 +10,7 @@ import "./sass/index.scss";
 
 export default ({ headerConfig, footerConfig }) => {
   //if localhost then debug
-  const debug = window.location.hostname === "localhost";
-  const site = getSite(debug);
+  const site = getSite();
   if (site === null) return;
   setupHeader(headerConfig, site);
   setupFooter(footerConfig, site);
