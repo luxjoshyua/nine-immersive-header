@@ -1,7 +1,7 @@
 import getLogo, { styleSvg } from "../site/get-logo";
 
 export default ({ bgColor = "black", logoColor = null, css = {} }, site) => {
-  const footer = document.querySelector("footer.masthead");
+  let footer = document.querySelector("footer.masthead");
   if (!footer) {
     footer = document.querySelector("footer");
   }else{
