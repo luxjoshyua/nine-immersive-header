@@ -8,8 +8,12 @@ export default (
   { textColor = "white", bgColor = "black", logoColor = null, css = {} },
   site
 ) => {
-  const header = document.querySelector("header");
-  if (!header) return;
+  const header = document.querySelector("header.masthead");
+  if (!header) {
+    header = document.querySelector("header");
+  }else{
+    return;
+  }
 
   const { assets } = config;
 

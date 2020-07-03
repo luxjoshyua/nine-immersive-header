@@ -1,8 +1,12 @@
 import getLogo, { styleSvg } from "../site/get-logo";
 
 export default ({ bgColor = "black", logoColor = null, css = {} }, site) => {
-  const footer = document.querySelector("footer");
-  if (!footer) return;
+  const footer = document.querySelector("footer.masthead");
+  if (!footer) {
+    footer = document.querySelector("footer");
+  }else{
+    return;
+  }
 
   for (let [key, value] of Object.entries(css)) {
     footer.style[key] = value;
