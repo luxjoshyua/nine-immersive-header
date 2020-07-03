@@ -3,7 +3,8 @@ npm package for dynamic fairfax header
 
 
 # instructions
-1. add <header> and <footer> tags to html
+1. add `<header>` and `<footer>` tags to html
+2. If using more then one `<header>` or `<footer>`, add class `masthead`
 2. add canonical url <meta property="og:url" content="urlgoeshere" >
 3. import fairfax-header and add config
 4. config accepts object with properties : headerConfig and footerConfig
