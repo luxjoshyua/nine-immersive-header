@@ -1,6 +1,6 @@
 {
   "name": "nine-immersive-header",
-  "version": "0.0.2",
+  "version": "0.2.5",
   "description": "npm package for dynamic nine immersive header",
   "main": "lib/index.js",
   "scripts": {
