@@ -1,7 +1,7 @@
 {
-  "name": "fairfax-header",
-  "version": "0.2.4",
-  "description": "npm package for dynamic fairfax header",
+  "name": "nine-immersive-header",
+  "version": "0.0.1",
+  "description": "npm package for dynamic nine immersive header",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,14 +14,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gpitot/fairfax-header.git"
+    "url": "git+https://github.com/aaronlutze/nine-immersive-header.git"
   },
-  "author": "Guillaume Pitot",
+  "author": "Aaron Lutze",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gpitot/fairfax-header/issues"
+    "url": "https://github.com/aaronlutze/nine-immersive-header/issues"
   },
-  "homepage": "https://github.com/gpitot/fairfax-header#readme",
+  "homepage": "https://github.com/aaronlutze/nine-immersive-header#readme",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
@@ -30,7 +30,7 @@
     "babel-preset-env": "^1.7.0",
     "css-loader": "^3.2.0",
     "eslint": "^6.5.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.14.1",
     "path": "^0.12.7",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
