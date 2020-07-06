@@ -14,9 +14,9 @@ npm package for dynamic nine immersive header
 
 # example
 ```javascript
-import nine-immersive-header from "nine-immersive-header";
+import nineHeader from "nine-immersive-header";
 
-fairfax({
+nineHeader({
   headerConfig: {
     logoColor: "white",
 
