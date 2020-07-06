@@ -2,7 +2,7 @@ import "whatwg-fetch";
 
 export const styleSvg = (parent, logoColor) => {
   if (!logoColor) return;
-  Array.from(parent.querySelectorAll("path")).forEach(
+  Array.from(parent.querySelectorAll("path, polyline")).forEach(
     p => (p.style.fill = logoColor)
   );
 };
