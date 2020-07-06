@@ -1,12 +1,12 @@
-# fairfax-header
-npm package for dynamic fairfax header
+# nine-immersive-header
+npm package for dynamic nine immersive header
 
 
 # instructions
 1. add `<header>` and `<footer>` tags to html
 2. If using more then one `<header>` or `<footer>`, add class `masthead`
 2. add canonical url <meta property="og:url" content="urlgoeshere" >
-3. import fairfax-header and add config
+3. import nine-immersive-header and add config
 4. config accepts object with properties : headerConfig and footerConfig
 5. both configs accept 
 - logoColor, bgColor, textColor, css
@@ -14,7 +14,7 @@ npm package for dynamic fairfax header
 
 # example
 ```javascript
-import fairfax from "fairfax-header";
+import nine-immersive-header from "nine-immersive-header";
 
 fairfax({
   headerConfig: {
