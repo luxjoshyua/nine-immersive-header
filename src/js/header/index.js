@@ -9,10 +9,10 @@ export default (
   site
 ) => {
   let header = document.querySelector("header.masthead");
-  console.log("@NIH: header: ", header);
   if (!header) {
     header = document.querySelector("header");
-  }else{
+  }
+  if (!header) {
     return;
   }
 
