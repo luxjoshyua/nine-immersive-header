@@ -67,6 +67,12 @@ export default {
       urls: ["watoday"],
       logo:
         "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2018/08/wa-today-logo-1-1.svg"
+    },
+    {
+      domain: "https://www.nine.com.au",
+      urls: ["nine"],
+      logo:
+        "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2021/01/nine-logo.svg"
     }
   ],
 
