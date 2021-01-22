@@ -26,9 +26,9 @@ module.exports = {
         test: /\.js$/,
         loader: "babel-loader",
         exclude: /node_modules/,
-        query: {
+        // query: {
           //   plugins: ["transform-class-properties"]
-        }
+        // }
       },
       {
         test: /\.svg$/,
