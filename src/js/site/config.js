@@ -87,6 +87,54 @@ export default {
       logo:
         "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2023/02/9honey-logo.svg"
     },
+    {
+      domain: "https://style.nine.com.au/",
+      urls: ["style"],
+      logo:
+        "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2023/02/9style-logob.svg"
+    },
+    {
+      domain: "https://travel.nine.com.au/",
+      urls: ["travel"],
+      logo:
+        "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2023/02/9travel.svg"
+    },
+    {
+      domain: "https://kitchen.nine.com.au/",
+      urls: ["kitchen"],
+      logo:
+        "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2023/02/9kitchen.svg"
+    },
+    {
+      domain: "https://honey.nine.com.au/you",
+      urls: ["you"],
+      logo:
+        "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2023/02/9you.svg"
+    },
+    {
+      domain: "https://honey.nine.com.au/parenting",
+      urls: ["parenting"],
+      logo:
+        "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2023/02/9parenting.svg"
+    },
+    {
+      domain: "https://coach.nine.com.au/",
+      urls: ["coach"],
+      logo:
+        "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2023/02/9coach.svg"
+    },
+    {
+      domain: "https://honey.nine.com.au/pets",
+      urls: ["pets"],
+      logo:
+        "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2023/02/9pets.svg"
+    },
+    {
+      domain: "https://celebrity.nine.com.au/",
+      urls: ["celebrity"],
+      logo:
+        "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2023/02/9celebrity.svg"
+    },
   ],
 
   assets: {
