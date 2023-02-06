@@ -80,7 +80,13 @@ export default {
       urls: ["nine"],
       logo:
         "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2021/01/nine-logo.svg"
-    }
+    },
+    {
+      domain: "https://honey.nine.com.au/",
+      urls: ["honey"],
+      logo:
+        "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2023/02/9honey-logo.svg"
+    },
   ],
 
   assets: {
