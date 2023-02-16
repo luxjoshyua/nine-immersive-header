@@ -12,13 +12,6 @@ npm package for dynamic nine immersive header
 - logoColor, bgColor, textColor, css
 - css is object with name = css property and value = css value
 
-# masthead override
-- By default, masthead logo logic is getting pulled from  window.location.hostname. You can add an override by using a meta tag with the name of "masthead" then choose a masthead by adding content prop. See all possible values in src/js/site/config.js
-- e.g to show nine celebrity logo:
-```
-<meta name="masthead" content="celebrity" />
-```
-
 # example
 ```javascript
 import nineHeader from "nine-immersive-header";
@@ -40,5 +33,12 @@ nineHeader({
 
 
 
+```
 
+# masthead override
+- By default, masthead logo logic is getting pulled from  window.location.hostname. You can add an override by using a meta tag with the name of "masthead" then choose a masthead by adding content prop. See all possible values in src/js/site/config.js
+- e.g to show nine celebrity logo:
+
+```
+<meta name="masthead" content="celebrity" />
 ```
