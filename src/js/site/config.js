@@ -36,6 +36,11 @@ export default {
       logo: "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2023/02/goodfood-logo.svg",
     },
     {
+      domain: "https://www.brisbanetimes.com.au/",
+      urls: ["brisbanetimes"],
+      logo: "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2023/03/brisbanetimes-logo1.svg",
+    },
+    {
       domain: "https://www.smh.com.au",
       urls: ["smh"],
       logo: "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2018/06/smh-logo.svg",
