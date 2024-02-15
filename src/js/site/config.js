@@ -73,7 +73,7 @@ export default {
     {
       domain: "https://travel.nine.com.au/",
       urls: ["travel"],
-      logo: "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2023/02/9travel.svg",
+      logo: "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2024/02/9travel-v2.svg",
     },
     {
       domain: "https://kitchen.nine.com.au/",
@@ -104,6 +104,21 @@ export default {
       domain: "https://celebrity.nine.com.au/",
       urls: ["celebrity"],
       logo: "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2023/02/9celebrity.svg",
+    },
+    {
+      domain: "https://9now.nine.com.au/the-block",
+      urls: ["theblock"],
+      logo: "https://live-native-paid-content.pantheonsite.io/inc/logos/theblock/logo-the-block.svg",
+    },
+    {
+      domain: "https://www.9now.com.au/",
+      urls: ["9now"],
+      logo: "https://brandedcontent.nine.com.au/inc/logos/ninenow/ninenow-logo.svg",
+    },
+    {
+      domain: "https://wwos.nine.com.au/",
+      urls: ["wwos"],
+      logo: "https://brandedcontent.nine.com.au/inc/logos/wwos/logo-wwos.svg",
     },
   ],
 
