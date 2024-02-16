@@ -73,7 +73,7 @@ export default {
     {
       domain: "https://travel.nine.com.au/",
       urls: ["travel"],
-      logo: "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2024/02/9travel-v2.svg",
+      logo: "https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2024/02/9travel-v3.svg",
     },
     {
       domain: "https://kitchen.nine.com.au/",
