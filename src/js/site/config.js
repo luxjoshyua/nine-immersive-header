@@ -120,6 +120,11 @@ export default {
       urls: ["wwos"],
       logo: "https://brandedcontent.nine.com.au/inc/logos/wwos/logo-wwos.svg",
     },
+    {
+      domain: "https://9now.nine.com.au/the-summit",
+      urls: ["summit"],
+      logo: "https://brandedcontent.nine.com.au/inc/logos/summit/summit-logo.png",
+    },
   ],
 
   assets: {

@@ -1,6 +1,6 @@
 {
   "name": "nine-immersive-header",
-  "version": "0.4.6",
+  "version": "0.4.7",
   "description": "npm package for dynamic nine immersive header",
   "main": "lib/index.js",
   "scripts": {
@@ -14,9 +14,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aaronlutze/nine-immersive-header.git"
+    "url": "git+https://github.com/luxjoshyua/nine-immersive-header.git"
   },
-  "author": "Aaron Lutze",
+  "author": "Joshua Fielding",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/aaronlutze/nine-immersive-header/issues"
