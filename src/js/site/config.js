@@ -123,7 +123,7 @@ export default {
     {
       domain: "https://9now.nine.com.au/the-summit",
       urls: ["summit"],
-      logo: "https://brandedcontent.nine.com.au/inc/logos/summit/summit-logo.png",
+      logo: "https://brandedcontent.nine.com.au/inc/logos/summit/summit-logo.svg",
     },
   ],
 
