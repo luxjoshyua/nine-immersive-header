@@ -125,6 +125,11 @@ export default {
       urls: ["summit"],
       logo: "https://brandedcontent.nine.com.au/inc/logos/summit/summit-logo.svg",
     },
+    {
+      domain: "https://honey.nine.com.au/living",
+      urls: ["living"],
+      logo: "https://brandedcontent.nine.com.au/inc/logos/summit/summit-logo.svg",
+    },
   ],
 
   assets: {
