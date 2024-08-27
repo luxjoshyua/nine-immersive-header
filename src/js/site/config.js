@@ -130,6 +130,11 @@ export default {
       urls: ["living"],
       logo: "https://brandedcontent.nine.com.au/inc/logos/summit/summit-logo.svg",
     },
+    {
+      domain: "https://honey.nine.com.au/money",
+      urls: ["honeymoney"],
+      logo: "https://brandedcontent.nine.com.au/inc/logos/money/money-logo.svg",
+    },
   ],
 
   assets: {
