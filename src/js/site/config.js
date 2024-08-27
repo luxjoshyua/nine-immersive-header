@@ -132,7 +132,7 @@ export default {
     },
     {
       domain: "https://honey.nine.com.au/money",
-      urls: ["honeymoney"],
+      urls: ["money"],
       logo: "https://brandedcontent.nine.com.au/inc/logos/money/money-logo.svg",
     },
   ],
